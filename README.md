@@ -25,8 +25,12 @@ public static boolean validateCPF(String cpf) {
 ```
 
 Teste com algumas cadeias:
-![alt text](https://github.com/DefinitelyNotACactus/Validator/raw/master/pictures/cpf1.png "Cadeia Válida")
-![alt text](https://github.com/DefinitelyNotACactus/Validator/raw/master/pictures/cpf2.png "Cadeia Inválida")
+<p align="center">
+ <img src="https://github.com/DefinitelyNotACactus/Validator/raw/master/pictures/cpf1.png"><br>
+  Cadeia Aceita<br>
+  <img src="https://github.com/DefinitelyNotACactus/Validator/raw/master/pictures/cpf2.png"><br>
+  Cadeia Recusada<br>
+ </p>
 
 ### Número de Telefone
 Um número de telefone é composto por 4 dígitos, hífen, 4 dígitos. Como sugestão opicional implementamos para aceitar quatro ou cinco dígitos no início da cadeia. Sua expressão regular é dada por:

@@ -17,8 +17,8 @@ public class Validator {
     //Números de CPF: 
     //cadeias de 3 dígitos, seguidos de ponto, mais 3 dígitos, ponto, 3 dígitos, hífen, 2 dígitos.
     public static boolean validateCPF(String cpf) {
-        String cpf_regex = "^\\d{3}\\.\\d{3}\\.\\d{3}\\.\\d{2}$";
-        Pattern pattern = Pattern.compile(cpf_regex, Pattern.CASE_INSENSITIVE);
+        String cpf_regex = "^\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}$";
+        Pattern pattern = Pattern.compile(cpf_regex);
         Matcher matcher = pattern.matcher(cpf);
         return matcher.matches();
     }
@@ -27,7 +27,7 @@ public class Validator {
     //4 dígitos, hífen, 4 dígitos. Opcional: fazer um padrão que possa reconhecer a primeira parte com 4 ou 5 dígitos (para incluir o quinto dígito dos números de celular)
     public static boolean validatePhone(String number){
         String phone_regex = "^\\d{4,5}\\-\\d{4}$";
-        Pattern pattern = Pattern.compile(phone_regex, Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile(phone_regex);
         Matcher matcher = pattern.matcher(number);
         return matcher.matches();
     }

@@ -2,7 +2,7 @@
 Projeto 1 de Teoria da Computação
 
 ## Introdução
-Durante o primeiro estágio da cadeira de Teoria da Computação aprendemos sobre autônomos finitos e expressões regulares. O projeto deste estágio consiste em usar expressões regulares em uma linguagem de programação para verificar se algumas cadeias satisfazem certos padrões. Para implementar isso, desenvolveremos uma aplicação <b>Java</b> que receberá cadeias e fará a verificação delas com uso da biblioteca <b>java.util.regex.*</b>. A aplicação se divide entre uma classe com uma interface visual para testar as cadeias e outra para validar as cadeias recebidas.
+Durante o primeiro estágio da cadeira de Teoria da Computação aprendemos sobre autômatos finitos e expressões regulares. O projeto deste estágio consiste em usar expressões regulares em uma linguagem de programação para verificar se algumas cadeias satisfazem certos padrões. Para implementar isso, desenvolveremos uma aplicação <b>Java</b> que receberá cadeias e fará a verificação delas com uso da biblioteca <b>java.util.regex.*</b>. A aplicação se divide entre uma classe com uma interface visual para testar as cadeias e outra para validar as cadeias recebidas.
 
 ## Cadeias a serem reconhecidas
 ### Número de CPF
